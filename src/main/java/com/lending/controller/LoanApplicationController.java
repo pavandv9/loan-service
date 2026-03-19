@@ -1,6 +1,7 @@
 package com.lending.controller;
 
 import com.lending.dto.LoanApplicationRequest;
+import com.lending.responsedto.LoanApplicationResponse;
 import com.lending.service.LoanApplicationService;
 import jakarta.validation.Valid;
 import org.springframework.http.HttpStatus;
@@ -21,8 +22,8 @@ public class LoanApplicationController {
     }
 
     @PostMapping
-    public ResponseEntity<String> createApplication(@Valid @RequestBody LoanApplicationRequest request) {
-        String response = loanApplicationService.process(request);
+    public ResponseEntity<LoanApplicationResponse> createApplication(@Valid @RequestBody LoanApplicationRequest request) {
+        LoanApplicationResponse response = loanApplicationService.process(request);
         return ResponseEntity.status(HttpStatus.CREATED).body(response);
     }
 }
