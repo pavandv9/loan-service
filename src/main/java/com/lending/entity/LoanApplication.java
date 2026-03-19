@@ -1,9 +1,9 @@
 package com.lending.entity;
 
-import com.lending.utils.ApplicationStatus;
-import com.lending.utils.EmploymentType;
-import com.lending.utils.LoanPurpose;
-import com.lending.utils.RiskBand;
+import com.lending.constants.ApplicationStatus;
+import com.lending.constants.EmploymentType;
+import com.lending.constants.LoanPurpose;
+import com.lending.constants.RiskBand;
 import jakarta.persistence.*;
 import lombok.*;
 

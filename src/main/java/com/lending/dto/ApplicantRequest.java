@@ -1,6 +1,6 @@
 package com.lending.dto;
 
-import com.lending.utils.EmploymentType;
+import com.lending.constants.EmploymentType;
 import jakarta.validation.constraints.*;
 import lombok.Data;
 

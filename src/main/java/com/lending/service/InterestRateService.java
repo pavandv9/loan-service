@@ -1,7 +1,7 @@
 package com.lending.service;
 
-import com.lending.utils.EmploymentType;
-import com.lending.utils.RiskBand;
+import com.lending.constants.EmploymentType;
+import com.lending.constants.RiskBand;
 import org.springframework.stereotype.Service;
 
 import java.math.BigDecimal;

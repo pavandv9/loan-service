@@ -1,4 +1,4 @@
-package com.lending.utils;
+package com.lending.constants;
 
 public enum EmploymentType {
     SALARIED,

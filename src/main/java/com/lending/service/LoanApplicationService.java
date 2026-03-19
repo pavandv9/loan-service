@@ -5,9 +5,8 @@ import com.lending.entity.LoanApplication;
 import com.lending.repository.LoanApplicationRepository;
 import com.lending.responsedto.LoanApplicationResponse;
 import com.lending.responsedto.OfferResponse;
-import com.lending.utils.ApplicationStatus;
-import com.lending.utils.RiskBand;
-import lombok.AllArgsConstructor;
+import com.lending.constants.ApplicationStatus;
+import com.lending.constants.RiskBand;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 

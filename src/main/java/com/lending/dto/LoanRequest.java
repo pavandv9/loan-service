@@ -1,6 +1,6 @@
 package com.lending.dto;
 
-import com.lending.utils.LoanPurpose;
+import com.lending.constants.LoanPurpose;
 import jakarta.validation.constraints.*;
 import lombok.Data;
 

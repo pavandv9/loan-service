@@ -1,8 +1,8 @@
 package com.lending.responsedto;
 
 import com.fasterxml.jackson.annotation.JsonInclude;
-import com.lending.utils.ApplicationStatus;
-import com.lending.utils.RiskBand;
+import com.lending.constants.ApplicationStatus;
+import com.lending.constants.RiskBand;
 import lombok.Builder;
 import lombok.Data;
 
